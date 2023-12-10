@@ -104,10 +104,12 @@ BBS entries are stored in YAML files in the directories specified in `source_dir
 
 [source, yaml]
 ----
-- name: "BBS1"
+- id: (uuid4 string here)
+  name: "BBS1"
   url: "telnet://bbs1.example.com"
   description: "Classic BBS on Telnet"
-- name: "BBS2"
+- id: (uuid4 string here)
+  name: "BBS2"
   url: "ssh://bbs2.example.com"
   description: "Secure BBS on SSH"
 ----
