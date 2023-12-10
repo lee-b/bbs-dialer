@@ -6,6 +6,15 @@ BBS Dialer is a tool designed for Linux and other Unix-like systems, including B
 
 BBS Dialer simplifies the process of connecting to and managing BBS entries. It supports various connection protocols like Telnet, SSH, and HTTPS and allows for aggregation of BBS entries from different sources, including local directories and GitHub repositories.
 
+== Screenshots
+
+image::docs/images/amiga_city.jpg[]
+image::docs/images/telnet_quit.jpg[]
+image::docs/images/main_menu.jpg[]
+image::docs/images/bbs_entry_management.jpg[]
+image::docs/images/bbs_entry_editor.jpg[]
+image::docs/images/bbs_edit_url.jpg[]
+
 == Features
 
 * Easy-to-use, interactive menu for managing BBS entries.
