@@ -33,20 +33,11 @@ For instructions on installation, usage, and configuration, refer to the section
 
 == Installation
 
-BBS Dialer can be installed either from PyPI, directly from the source, or using the provided wheel files (*.whl) from the GitHub releases.
+BBS Dialer can be installed either from directly from the source (it builds with Poetry), or using the provided wheel files (*.whl) from the GitHub releases.
 
 === System Requirements
 
 **First, install https://linux.die.net/man/1/dialog[dialog(1)] on your system.**
-
-=== From PyPI
-
-Install BBS Dialer using pip:
-
-[source, bash]
-----
-pip install bbs-dialer
-----
 
 === From GitHub Release
 
