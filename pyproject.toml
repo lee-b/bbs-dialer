@@ -3,7 +3,7 @@ name = "bbs-dialer"
 version = "0.1.0"
 description = "A simple BBS-styled BBS \"dialer\" menu / launcher for telnet and SSH"
 authors = ["Lee Braiden <leebraid@gmail.com>"]
-license = "Aferro GNU General Public License version 3"
+license = "Affero GNU General Public License version 3"
 readme = "README.adoc"
 
 packages = [
