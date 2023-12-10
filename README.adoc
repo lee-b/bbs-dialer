@@ -1,6 +1,6 @@
 = BBS Dialer
 
-BBS Dialer is a tool designed for Linux and other Unix-like systems, including BSD, offering a modern approach to accessing Bulletin Board Systems (BBS). It combines the classic feel of BBS with the advanced capabilities of contemporary terminals. 
+BBS Dialer is a Phonebook / Dialer tool designed for Linux, the BSDs, and other Unix-like operating systems, offering a modern approach to accessing Bulletin Board Systems (BBS's).  It forgoes all of the normal terminal emulator stuff of tools like Minicom, Seyon, etc., and JUST provides the interface to manage BBS listings and "dial" them (over telnet / SSH).
 
 == Overview
 
@@ -23,21 +23,13 @@ image::docs/images/bbs_edit_url.jpg[]
 * Unicode support for better character encoding handling.
 * Eliminates the need for serial port emulation and the complexity of using an emulated terminal.
 
-== Compatibility
+== Compatibility and System Requirements
 
-The tool is designed to work on Unix-like systems such as Linux and BSD. It may also be compatible with modern terminal solutions like Windows Terminal.
-
-== Getting Started
-
-For instructions on installation, usage, and configuration, refer to the sections below.
+The tool is designed to work on Unix-like systems such as Linux and BSD. It *might* also be compatible with modern Windows terminal solutions like Windows Terminal, or PuTTY.  You need `python3.9+`, `dialog`, and also `telnet` and `ssh` installed, if you plan to connect to BBS's that use either of those.  `dialog` might be more difficult part to install on Windows.
 
 == Installation
 
 BBS Dialer can be installed either from directly from the source (it builds with Poetry), or using the provided wheel files (*.whl) from the GitHub releases.
-
-=== System Requirements
-
-**First, install https://linux.die.net/man/1/dialog[dialog(1)] on your system.**
 
 === From GitHub Release
 
