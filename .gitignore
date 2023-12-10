@@ -1,0 +1,9 @@
+dist/
+.venv/
+.envrc
+__pycache__/
+*.pyo
+*.pyc
+*~
+*.bak
+

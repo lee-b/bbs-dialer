@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "bbs-dialer"
+version = "0.1.0"
+description = "A simple BBS-styled BBS \"dialer\" menu / launcher for telnet and SSH"
+authors = ["Lee Braiden <leebraid@gmail.com>"]
+license = "Aferro GNU General Public License version 3"
+readme = "README.adoc"
+
+packages = [
+	{ include="bbs_dialer", from="components" },
+]
+
+[tool.poetry.scripts]
+bbs-dialer = "bbs_dialer.__main__:main"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pythondialog = "^3.5.3"
+pyyaml = "^6.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
